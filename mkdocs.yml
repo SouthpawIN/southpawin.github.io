@@ -1,7 +1,7 @@
 site_name: sovthpaw
 site_description: >-
   Personal site of sovthpaw (Chris) — TOWARDS SELF-IMPROVEMENT. Blog, projects,
-  models, the Nous Girl agent, and the OmniStep Evolution Radio.
+  models, the Omni VA + Evolution Radio, and the OmniSenter pipeline.
 site_url: https://southpawin.github.io/
 repo_url: https://github.com/SouthpawIN/southpawin.github.io
 repo_name: SouthpawIN/southpawin.github.io
@@ -135,7 +135,7 @@ nav:
   - Blog: blog/index.md
   - Projects:
       - Overview: projects/index.md
-      - Nous Girl Agent: projects/nous-girl-agent.md
+      - Omni VA: projects/omni-va.md
       - OmniSenter: projects/omnisenter.md
   - Models:
       - Overview: models/index.md

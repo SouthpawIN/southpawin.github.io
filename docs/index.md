@@ -70,7 +70,7 @@ A naming convention that ties together everything I build:
 
 **Omni VA** is the desktop assistant that serves as the user-facing surface for the whole stack. She runs locally, is multimodal when OmniStep is the model, and falls back gracefully to Edge TTS when you swap in a text-only LLM. The Evolution Radio is bundled — it runs alongside whatever model is loaded, curates your taste, and feeds the Ohm chain.
 
-[Get Omni VA →](projects/nous-girl-agent.md){.md-button}
+[Get Omni VA →](projects/omni-va.md){.md-button}
 
 ---
 

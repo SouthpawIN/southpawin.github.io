@@ -6,7 +6,7 @@ The repos. Hand-picked, hand-built, hand-curated.
 
 | Project | What it is | Link |
 |---|---|---|
-| **Omni VA** | Desktop assistant + local model server + curated catalog. The user-facing surface. | [Repo](https://github.com/SouthpawIN/nous-girl-agent) · [Details](nous-girl-agent.md) |
+| **Omni VA** | Desktop assistant + local model server + curated catalog. The user-facing surface. | [Repo](https://github.com/SouthpawIN/omni-va) · [Details](omni-va.md) |
 | **OmniSenter** | The 32A8B MoE flagship. Multimodal native. Self-evolving via Ohm. | [Repo](https://github.com/SouthpawIN/evolutionary-training) · [Details](omnisenter.md) |
 | **Evolutionary Radio** | Perpetual playlist loop. Listens, curates, evolves. | [Repo](https://github.com/SouthpawIN/evolutionary-radio) |
 | **Synthesia** | Cross-modal memory layer. | (In evolutionary-training wiki) |
@@ -27,7 +27,7 @@ The repos. Hand-picked, hand-built, hand-curated.
 | **Omni VA** | Vibe conductor. Eikon library. | [Repo](https://github.com/SouthpawIN/nous-girl) |
 | **Senter** | Triage orchestrator. Prioritization tier. | [Repo](https://github.com/SouthpawIN/senter) |
 | **Chizul** | Builder. Execution tier. | [Repo](https://github.com/SouthpawIN/chizul) |
-| **evolutionary-radio** | Curator profile for the radio plugin. | [Bundled with nous-girl-agent](https://github.com/SouthpawIN/nous-girl-agent) |
+| **evolutionary-radio** | Curator profile for the radio plugin. | [Bundled with omni-va](https://github.com/SouthpawIN/omni-va) |
 
 ## Transcripts
 
