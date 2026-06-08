@@ -28,7 +28,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 SITE = Path("/home/sovthpaw/projects/personal-site")
-SITE_URL = "https://southpawin.github.io/omnisenter-blog"
+SITE_URL = "https://southpawin.github.io/"
 QUEUE_FILE = Path(__file__).parent / ".x_queue.json"
 LOG_FILE = Path(__file__).parent / ".x_posted.log"
 
