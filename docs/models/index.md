@@ -26,7 +26,7 @@ The hand-curated model catalog. Each entry is a deliberate choice — a model yo
 
 ## Source
 
-The catalog lives at `SouthpawIN/nous-girl-agent/models/curated.yaml`. Edit it directly. Each entry has:
+The catalog lives at `sovthpaw/nous-girl-agent/models/curated.yaml`. Edit it directly. Each entry has:
 
 - `id`, `display_name`, `tier` (multimodal-native / text-with-tts / api-combo)
 - `backend` (llama.cpp / ollama / openai-compat / nous-portal)

@@ -1,4 +1,4 @@
-# SouthpawIN — Personal Site
+# sovthpaw — Personal Site
 
 This repo is the front door for everything I build. It's deployed to
 **https://southpawin.github.io/** via GitHub Pages.

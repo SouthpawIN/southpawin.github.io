@@ -368,19 +368,19 @@ the `.ohm` file format + the safety properties.
     └── *.jsonl + *.log
 ```
 
-## Related repos (all in `SouthpawIN/` org)
+## Related repos (all in `sovthpaw/` org)
 
-- [`SouthpawIN/evolutionary-radio`](https://github.com/SouthpawIN/evolutionary-radio) —
+- [`sovthpaw/evolutionary-radio`](https://github.com/SouthpawIN/evolutionary-radio) —
   the OmniStep-brained music radio (a Stage 5 consumer)
-- [`SouthpawIN/omnistep-fusion`](https://github.com/SouthpawIN/omnistep-fusion) —
+- [`sovthpaw/omnistep-fusion`](https://github.com/SouthpawIN/omnistep-fusion) —
   Cosmos × ACE-Step multimodal merge
-- [`SouthpawIN/evolutionary-model-merging`](https://github.com/SouthpawIN/evolutionary-model-merging) —
+- [`sovthpaw/evolutionary-model-merging`](https://github.com/SouthpawIN/evolutionary-model-merging) —
   Darwin Family (CMA-ES + paper-exact merge)
-- [`SouthpawIN/multimodal-expansion`](https://github.com/SouthpawIN/multimodal-expansion) —
+- [`sovthpaw/multimodal-expansion`](https://github.com/SouthpawIN/multimodal-expansion) —
   REAP + EvoMoE + `sparse_upcycle.py` for Senter Ohm's Stage 3
-- [`SouthpawIN/hermes-agent`](https://github.com/SouthpawIN/hermes-agent) —
+- [`sovthpaw/hermes-agent`](https://github.com/SouthpawIN/hermes-agent) —
   the smart agent Senter is auxiliary to
-- `SouthpawIN/senter`, `nous-girl`, `chizul` — Hermes Agent profiles
+- `sovthpaw/senter`, `nous-girl`, `chizul` — Hermes Agent profiles
 
 ## See also
 

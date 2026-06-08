@@ -105,7 +105,7 @@ For a cold reader:
 | `sovthpaw/omnisenter-12b` | ~12B | ⏳ planned | The new OmniSenter 12B (small function calling + omnimodal fusion). |
 | `sovthpaw/senter-ohm-32a8b` | ~32B total / 8B active | ⏳ planned | The new Senter Ohm flagship MoE. |
 
-## GitHub repos (`SouthpawIN/`)
+## GitHub repos (`sovthpaw/`)
 
 | Repo | Role |
 |---|---|

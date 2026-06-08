@@ -55,7 +55,7 @@ manifold. The reason it works for LLMs:
 
 ## See also
 
-- Repo: [`SouthpawIN/evolutionary-model-merging`](https://github.com/SouthpawIN/evolutionary-model-merging)
+- Repo: [`sovthpaw/evolutionary-model-merging`](https://github.com/SouthpawIN/evolutionary-model-merging)
 - Blog post: [`../../blog/the-5-stage-pipeline.md`](../../blog/the-5-stage-pipeline.md) (Stage 2 specifically)
 - Blog post: [`../../blog/generative-darwin-evolution.md`](../../blog/generative-darwin-evolution.md) (extending to DiT/audio)
 - Related: [Ohm](./ohm.md) · [Omnimodal Fusion](./omnimodal-fusion.md) · [Senter Ohm](./senter-ohm.md)

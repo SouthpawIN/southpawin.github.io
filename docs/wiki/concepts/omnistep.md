@@ -54,4 +54,4 @@ eventually replace it.
 - Blog post: [`../../blog/the-omnistep-multimodal.md`](../../blog/the-omnistep-multimodal.md)
 - Related: [Omni](./omni.md) · [Omnimodal fusion](./omnimodal-fusion.md) · [Generative Darwin](../../blog/generative-darwin-evolution.md)
 - HF: [`sovthpaw/omnistep-12a3b`](https://huggingface.co/sovthpaw/omnistep-12a3b)
-- Repo: [`SouthpawIN/evolutionary-radio`](https://github.com/SouthpawIN/evolutionary-radio) (the music radio that uses OmniStep)
+- Repo: [`sovthpaw/evolutionary-radio`](https://github.com/SouthpawIN/evolutionary-radio) (the music radio that uses OmniStep)

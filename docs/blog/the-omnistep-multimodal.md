@@ -219,7 +219,7 @@ OmniStep Multimodal at the new architecture scale:
   — the published 16B base
 - [sovthpaw/Omni-Senter-3B](https://huggingface.co/sovthpaw/Omni-Senter-3B)
   — the early 3B Senter
-- [SouthpawIN/evolutionary-radio](https://github.com/SouthpawIN/evolutionary-radio) —
+- [sovthpaw/evolutionary-radio](https://github.com/SouthpawIN/evolutionary-radio) —
   the radio that uses the unified OmniStep
 - Paper: [Komatsuzaki et al. 2022 "Sparse Upcycling"](https://arxiv.org/abs/2212.05055)
 

@@ -292,15 +292,15 @@ window is the **notebook capacity**, not the raw conversation capacity.
 ```
 
 Related repos:
-- `SouthpawIN/omnistep-fusion` — Cosmos × ACE-Step multimodal fusion
+- `sovthpaw/omnistep-fusion` — Cosmos × ACE-Step multimodal fusion
   (this is the OmniStep family root)
-- `SouthpawIN/evolutionary-model-merging` — CMA-ES + paper-exact merge
+- `sovthpaw/evolutionary-model-merging` — CMA-ES + paper-exact merge
   (Darwin Family children)
-- `SouthpawIN/multimodal-expansion` — REAP + EvoMoE (and now
+- `sovthpaw/multimodal-expansion` — REAP + EvoMoE (and now
   `sparse_upcycle.py` for Senter Ohm's Stage 3)
-- `SouthpawIN/evolutionary-radio` — the OmniStep-brained music radio
-- `SouthpawIN/hermes-agent` — the smart agent Senter Ohm is auxiliary to
-- `SouthpawIN/senter`, `nous-girl`, `chizul` — Hermes Agent profiles
+- `sovthpaw/evolutionary-radio` — the OmniStep-brained music radio
+- `sovthpaw/hermes-agent` — the smart agent Senter Ohm is auxiliary to
+- `sovthpaw/senter`, `nous-girl`, `chizul` — Hermes Agent profiles
 
 ## Building it (the order of operations)
 
@@ -378,7 +378,7 @@ The HF model pipeline that follows the same pattern as
 - Script: `~/projects/omni-fusion/sparse_upcycle.py` (Stage 3 tool)
 - Script: `~/projects/evolutionary-training/scripts/yarn_256k_config.py`
   (Stage 4 tool)
-- Repo: `SouthpawIN/evolutionary-training` (the main project)
+- Repo: `sovthpaw/evolutionary-training` (the main project)
 - HF: [sovthpaw/omnistep-12a3b](https://huggingface.co/sovthpaw/omnistep-12a3b)
   (the multimodal baseline; this is the **OmniStep** model)
 

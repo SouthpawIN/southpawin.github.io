@@ -1,7 +1,7 @@
-site_name: SouthpawIN
+site_name: sovthpaw
 site_description: >-
-  Personal site — TOWARDS SELF-IMPROVEMENT. Blog, projects, models, and the
-  Nous Girl agent + OmniStep Evolution Radio.
+  Personal site of sovthpaw (Chris) — TOWARDS SELF-IMPROVEMENT. Blog, projects,
+  models, the Nous Girl agent, and the OmniStep Evolution Radio.
 site_url: https://southpawin.github.io/
 repo_url: https://github.com/SouthpawIN/southpawin.github.io
 repo_name: SouthpawIN/southpawin.github.io
@@ -9,7 +9,7 @@ edit_uri: ""
 
 # Copyright (appears in footer)
 copyright: >-
-  SouthpawIN by Chris · TOWARDS SELF-IMPROVEMENT
+  sovthpaw · TOWARDS SELF-IMPROVEMENT
 
 # Don't include source/timestamp/docs paths in the nav
 docs_dir: docs
@@ -37,18 +37,18 @@ theme:
     - content.tabs.link
     - content.action.edit
   palette:
-    # Light mode — cosmic variant (teal/gold nebula tones)
+    # Light mode — warm cream paper with gold dust accents
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: deep purple
-      accent: teal
+      primary: black
+      accent: amber
       toggle:
         icon: material/weather-night
         name: Switch to dark mode
-    # Dark mode — cosmic teal/gold
+    # Dark mode — matte black with gold dust
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: teal
+      primary: black
       accent: amber
       toggle:
         icon: material/weather-sunny

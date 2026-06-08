@@ -1,28 +1,86 @@
 /* ============================================================
-   OmniSenter Blog — Custom Theme (Nous Cosmic Variant)
+   sovthpaw — Custom Theme (Matte Black + Gold Dust)
    ============================================================ */
 
 :root {
-  /* Nous brand colors — cosmic variant */
-  --nos-cosmic-teal: #4ECDC4;
-  --nos-cosmic-gold: #F4D03F;
-  --nos-deep-purple: #6B5B95;
-  --nos-nebula-bg: #0B1426;
-  --nos-nebula-fg: #E8F1F5;
-  --nos-paper: #FAF8F5;
-  --nos-ink: #1A1A2E;
-  --nos-code-bg: #1A1A2E;
-  --nos-code-fg: #E8F1F5;
+  /* Matte black palette */
+  --sov-matte-black: #0a0a0a;
+  --sov-matte-black-2: #121212;
+  --sov-matte-black-3: #1a1a1a;
+  --sov-ink: #0a0a0a;
+  --sov-paper: #f5f1e8;        /* warm cream foreground */
+  --sov-paper-dim: #b8b3a3;
+  --sov-fg: #e8e4d8;
+  --sov-fg-dim: #9d978a;
+
+  /* Gold dust palette */
+  --sov-gold-dust: #c9a961;     /* primary muted gold */
+  --sov-gold: #d4af37;          /* brighter accent */
+  --sov-gold-bright: #e8c876;   /* highlight */
+  --sov-gold-deep: #8a6d2c;     /* deep gold for borders */
+  --sov-gold-shadow: rgba(201, 169, 97, 0.15);
+
+  /* Code stays dark on both modes */
+  --sov-code-bg: #0a0a0a;
+  --sov-code-fg: #e8e4d8;
 }
 
-/* Hero image styling */
+/* Override MkDocs Material palette to force matte black everywhere */
+[data-md-color-scheme="default"] {
+  --md-default-bg-color: #f5f1e8;     /* light mode = warm cream paper */
+  --md-default-bg-color--light: #ebe6d6;
+  --md-default-fg-color: #0a0a0a;     /* dark text on light bg */
+  --md-default-fg-color--light: #4a463c;
+  --md-default-fg-color--lighter: #6b6759;
+  --md-primary-fg-color: #0a0a0a;
+  --md-primary-bg-color: #f5f1e8;
+  --md-accent-fg-color: #8a6d2c;       /* deep gold accent */
+  --md-typeset-a-color: #8a6d2c;
+}
+
+[data-md-color-scheme="slate"] {
+  --md-default-bg-color: #0a0a0a;     /* matte black */
+  --md-default-bg-color--light: #121212;
+  --md-default-fg-color: #e8e4d8;     /* warm cream foreground */
+  --md-default-fg-color--light: #b8b3a3;
+  --md-default-fg-color--lighter: #6b6759;
+  --md-primary-fg-color: #c9a961;     /* gold dust primary */
+  --md-primary-bg-color: #0a0a0a;
+  --md-accent-fg-color: #d4af37;      /* brighter gold accent */
+  --md-typeset-a-color: #d4af37;
+}
+
+/* Header / nav */
+.md-header {
+  background-color: #0a0a0a !important;
+  border-bottom: 1px solid #1a1a1a;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.4);
+}
+
+[data-md-color-scheme="default"] .md-header {
+  background-color: #f5f1e8 !important;
+  border-bottom: 1px solid #c9a961;
+}
+
+.md-tabs {
+  background-color: #0a0a0a !important;
+  color: var(--sov-gold-dust);
+}
+
+[data-md-color-scheme="default"] .md-tabs {
+  background-color: #f5f1e8 !important;
+  color: #0a0a0a;
+}
+
+/* Hero image */
 .hero-image {
   width: 100%;
   max-width: 900px;
   margin: 2rem auto;
   display: block;
   border-radius: 8px;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.6);
+  border: 1px solid #2a2a2a;
 }
 
 /* Hero text on landing page */
@@ -32,19 +90,21 @@
 }
 
 .md-typeset .hero h1 {
-  font-size: 3rem;
-  font-weight: 800;
-  background: linear-gradient(135deg, var(--nos-cosmic-teal) 0%, var(--nos-cosmic-gold) 100%);
+  font-size: 3.5rem;
+  font-weight: 900;
+  background: linear-gradient(135deg, var(--sov-gold-bright) 0%, var(--sov-gold-dust) 50%, var(--sov-gold-deep) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+  letter-spacing: 0.05em;
   margin-bottom: 0.5rem;
+  text-transform: lowercase;
 }
 
 .md-typeset .hero .tagline {
   font-size: 1.2rem;
   font-style: italic;
-  color: var(--md-default-fg-color--light);
+  color: var(--sov-paper-dim);
   margin-bottom: 2rem;
 }
 
@@ -55,27 +115,34 @@
   font-family: 'JetBrains Mono', monospace;
   font-size: 0.75rem;
   font-weight: 600;
-  letter-spacing: 0.1em;
-  color: var(--nos-cosmic-gold);
-  background: var(--nos-nebula-bg);
-  border: 1px solid var(--nos-cosmic-teal);
+  letter-spacing: 0.15em;
+  color: var(--sov-gold);
+  background: var(--sov-matte-black);
+  border: 1px solid var(--sov-gold-dust);
   border-radius: 4px;
   text-transform: uppercase;
   margin-bottom: 1rem;
 }
 
-/* Callout boxes (admonitions) */
-.md-typeset .admonition {
-  border-radius: 6px;
-  border-left: 4px solid var(--nos-cosmic-teal);
+[data-md-color-scheme="default"] .tow-badge {
+  background: var(--sov-paper);
+  color: var(--sov-gold-deep);
+  border-color: var(--sov-gold);
 }
 
-/* Code blocks — keep dark for both modes */
+/* Admonitions */
+.md-typeset .admonition {
+  border-radius: 6px;
+  border-left: 4px solid var(--sov-gold-dust);
+}
+
+/* Code blocks */
 .md-typeset pre > code,
 .md-typeset code {
-  background-color: var(--nos-code-bg) !important;
-  color: var(--nos-code-fg) !important;
+  background-color: var(--sov-code-bg) !important;
+  color: var(--sov-code-fg) !important;
   border-radius: 4px;
+  border: 1px solid #1a1a1a;
 }
 
 .md-typeset pre > code {
@@ -87,26 +154,32 @@
 /* Inline code */
 .md-typeset p code,
 .md-typeset li code {
-  background-color: rgba(78, 205, 196, 0.12) !important;
-  color: var(--nos-cosmic-teal) !important;
+  background-color: rgba(201, 169, 97, 0.12) !important;
+  color: var(--sov-gold-bright) !important;
   padding: 0.1rem 0.3rem;
   border-radius: 3px;
   font-size: 0.85em;
-  border: 1px solid rgba(78, 205, 196, 0.3);
+  border: 1px solid rgba(201, 169, 97, 0.3);
 }
 
-/* Table styling */
+/* Tables */
 .md-typeset table:not([class]) {
   font-size: 0.85rem;
+  border: 1px solid #2a2a2a;
 }
 
 .md-typeset table:not([class]) th {
-  background: linear-gradient(135deg, var(--nos-deep-purple) 0%, var(--nos-cosmic-teal) 100%);
-  color: white;
+  background: linear-gradient(135deg, #1a1a1a 0%, #2a2a2a 100%);
+  color: var(--sov-gold);
   font-weight: 600;
+  border-bottom: 1px solid var(--sov-gold-dust);
 }
 
-/* Blog post card grid (for blog index) */
+.md-typeset table:not([class]) td {
+  border-bottom: 1px solid #1a1a1a;
+}
+
+/* Blog post card grid */
 .blog-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -116,26 +189,26 @@
 
 .blog-card {
   padding: 1.5rem;
-  border: 1px solid var(--md-default-fg-color--lightest);
+  border: 1px solid #2a2a2a;
   border-radius: 8px;
-  background: var(--md-default-bg-color);
-  transition: transform 0.2s, box-shadow 0.2s;
+  background: var(--md-default-bg-color--light);
+  transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
 }
 
 .blog-card:hover {
   transform: translateY(-2px);
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
-  border-color: var(--nos-cosmic-teal);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+  border-color: var(--sov-gold-dust);
 }
 
 .blog-card h3 {
   margin-top: 0;
-  color: var(--nos-cosmic-teal);
+  color: var(--sov-gold);
 }
 
 .blog-card .meta {
   font-size: 0.8rem;
-  color: var(--md-default-fg-color--light);
+  color: var(--sov-paper-dim);
   margin-bottom: 0.5rem;
 }
 
@@ -146,16 +219,18 @@
   gap: 0.4rem;
   padding: 0.4rem 0.8rem;
   background: #000;
-  color: #fff;
+  color: var(--sov-gold);
+  border: 1px solid var(--sov-gold-dust);
   border-radius: 4px;
   font-weight: 600;
   font-size: 0.85rem;
   text-decoration: none;
   margin: 1rem 0;
+  transition: background 0.2s, color 0.2s;
 }
 
 .share-x:hover {
-  background: var(--nos-cosmic-teal);
+  background: var(--sov-gold-dust);
   color: #000;
 }
 
@@ -165,52 +240,150 @@
   font-size: 1.1em;
 }
 
-/* TOWARDS SELF-IMPROVEMENT footer */
+/* Footer */
 .tow-footer {
   text-align: center;
   font-family: 'JetBrains Mono', monospace;
   font-weight: 600;
   font-size: 0.85rem;
   letter-spacing: 0.2em;
-  color: var(--nos-cosmic-gold);
+  color: var(--sov-gold);
   margin: 3rem 0 1rem 0;
   text-transform: uppercase;
 }
 
-/* Dark mode refinements */
-[data-md-color-scheme="slate"] {
-  --md-default-bg-color: #0B1426;
-  --md-default-fg-color: #E8F1F5;
-  --md-default-fg-color--light: #B0B8C2;
+.md-footer {
+  background-color: #0a0a0a !important;
+  border-top: 1px solid #1a1a1a;
 }
 
+[data-md-color-scheme="default"] .md-footer {
+  background-color: #f5f1e8 !important;
+  border-top: 1px solid #c9a961;
+}
+
+.md-footer-meta {
+  background-color: #050505 !important;
+}
+
+[data-md-color-scheme="default"] .md-footer-meta {
+  background-color: #ebe6d6 !important;
+}
+
+/* Side nav */
+.md-nav {
+  font-size: 0.85rem;
+}
+
+.md-nav__link {
+  color: var(--sov-fg);
+}
+
+.md-nav__link:hover {
+  color: var(--sov-gold);
+}
+
+.md-nav__link--active {
+  color: var(--sov-gold);
+}
+
+/* Selection */
+::selection {
+  background: var(--sov-gold-deep);
+  color: #f5f1e8;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0a0a0a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2a2a2a;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--sov-gold-deep);
+}
+
+/* Dark mode table hover */
 [data-md-color-scheme="slate"] .md-typeset table:not([class]) tr:hover {
-  background-color: rgba(78, 205, 196, 0.05);
+  background-color: rgba(201, 169, 97, 0.05);
 }
 
-/* "Read time" badge */
+/* Read time badge */
 .read-time {
   display: inline-block;
   padding: 0.15rem 0.5rem;
   font-size: 0.7rem;
-  background: rgba(78, 205, 196, 0.15);
-  color: var(--nos-cosmic-teal);
+  background: rgba(201, 169, 97, 0.15);
+  color: var(--sov-gold);
   border-radius: 3px;
   font-weight: 600;
   margin-left: 0.5rem;
 }
 
-/* "TOWARDS" callout box */
+/* TOWARDS callout */
 .tow-callout {
   text-align: center;
   padding: 1.5rem;
   margin: 3rem 0;
-  background: linear-gradient(135deg, rgba(78, 205, 196, 0.08) 0%, rgba(244, 208, 63, 0.05) 100%);
-  border: 1px solid var(--nos-cosmic-teal);
+  background: linear-gradient(135deg, rgba(201, 169, 97, 0.08) 0%, rgba(138, 109, 44, 0.05) 100%);
+  border: 1px solid var(--sov-gold-dust);
   border-radius: 8px;
   font-family: 'JetBrains Mono', monospace;
   font-weight: 700;
   letter-spacing: 0.2em;
-  color: var(--nos-cosmic-gold);
+  color: var(--sov-gold);
   text-transform: uppercase;
+}
+
+/* Headings get a subtle gold accent line on h1 */
+.md-typeset h1 {
+  color: var(--sov-fg);
+  border-bottom: 1px solid #2a2a2a;
+  padding-bottom: 0.5rem;
+}
+
+[data-md-color-scheme="default"] .md-typeset h1 {
+  color: #0a0a0a;
+  border-bottom: 1px solid #c9a961;
+}
+
+.md-typeset h2 {
+  color: var(--sov-gold);
+  font-weight: 600;
+}
+
+/* Links */
+.md-typeset a {
+  color: var(--sov-gold);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.2s;
+}
+
+.md-typeset a:hover {
+  border-bottom-color: var(--sov-gold-dust);
+}
+
+/* Buttons (mkdocs-material) */
+.md-button {
+  background: var(--sov-gold-deep) !important;
+  color: #0a0a0a !important;
+  border: 1px solid var(--sov-gold-dust);
+  font-weight: 600;
+  transition: background 0.2s, border-color 0.2s;
+}
+
+.md-button:hover {
+  background: var(--sov-gold) !important;
+  border-color: var(--sov-gold-bright);
+  color: #0a0a0a !important;
 }

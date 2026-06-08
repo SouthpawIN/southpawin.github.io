@@ -334,9 +334,9 @@ from-scratch project.
   wired in (Stage 5)
 - [`generative-darwin-evolution.md`](./generative-darwin-evolution.md) —
   extends the same CMA-ES + merge idea to DiT/audio heads
-- Repo: [SouthpawIN/evolutionary-model-merging](https://github.com/SouthpawIN/evolutionary-model-merging)
+- Repo: [sovthpaw/evolutionary-model-merging](https://github.com/SouthpawIN/evolutionary-model-merging)
   — the merge formula + CMA-ES implementation
-- Repo: [SouthpawIN/evolutionary-training](https://github.com/SouthpawIN/evolutionary-training)
+- Repo: [sovthpaw/evolutionary-training](https://github.com/SouthpawIN/evolutionary-training)
   — the `omnisenter_ohm.py` runtime
 - Paper: [Komatsuzaki et al. 2022 "Sparse Upcycling"](https://arxiv.org/abs/2212.05055) —
   the MoE from dense pattern
