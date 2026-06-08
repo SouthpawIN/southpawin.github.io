@@ -1,0 +1,16 @@
+# MkDocs
+/site/
+
+# X scheduler state
+scripts/.x_queue.json
+scripts/.x_posted.log
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Editor
+.vscode/
+.idea/
+.DS_Store
