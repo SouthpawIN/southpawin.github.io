@@ -22,9 +22,9 @@ Ohm and Hermes.
 
 ## The three load-bearing ideas
 
-1. **Darwin Family weight-space recombination** (per
-   [arXiv:2605.14386](https://arxiv.org/abs/2605.14386)) — a
-   training-free way to merge LLMs that outperforms either parent.
+1. **Darwin Family weight-space recombination** (after Akiba et al.'s
+   [Evolutionary Optimization of Model Merging Recipes](https://arxiv.org/abs/2403.13187),
+   2024) — a training-free way to merge LLMs that outperforms either parent.
 2. **Sparse upcycling** (per
    [Komatsuzaki et al. 2022](https://arxiv.org/abs/2212.05055)) — turn
    a dense model into a MoE by copying the FFN as N parallel experts +

@@ -92,13 +92,29 @@ Nous Girl (curation)  →  Senter (prioritization)  →  Hermes main (execution)
 
 ---
 
+## From the blog
+
+**Flagship post** — [Senter Ohm: The Self-Evolving Flagship](blog/senter-ohm-flagship.md)
+A ~32B total / 8B active MoE with the Ohm self-evolution engine. Three new ideas, one architecture diagram.
+
+**Cross-modal memory** — [Synthesia: The Cross-Modal Memory Layer](blog/the-synthesia-layer.md)
+Joint (text, audio, image) embeddings, 10 concrete benefits, the data it needs, the MoE expert.
+
+**The integration pattern** — [Senter as the Hermes Auxiliary](blog/senter-as-hermes-auxiliary.md)
+How Senter talks to Hermes Agent. The notebook-as-API pattern, escalation rules, the cost model.
+
+[See all 13 posts →](blog/index.md){.md-button}
+
+---
+
 ## Live now
 
-- **Public blog:** [omnisenter-blog](https://github.com/SouthpawIN/omnisenter-blog) (legacy URL, content now here)
+- **Public site (you are here)** — [southpawin.github.io](https://southpawin.github.io/)
 - **Pet + radio:** [nous-girl-agent](https://github.com/SouthpawIN/nous-girl-agent)
 - **Training pipeline:** [evolutionary-training](https://github.com/SouthpawIN/evolutionary-training)
 - **Model merging:** [evolutionary-model-merging](https://github.com/SouthpawIN/evolutionary-model-merging)
 - **Multimodal expansion:** [multimodal-expansion](https://github.com/SouthpawIN/multimodal-expansion)
+- **HuggingFace models (v1 transitional):** [sovthpaw](https://huggingface.co/sovthpaw)
 
 ---
 
