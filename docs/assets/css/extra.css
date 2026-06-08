@@ -1,5 +1,5 @@
 /* ============================================================
-   sovthpaw — Custom Theme (Matte Black + Gold Dust)
+   sovthpaw — Custom Theme (Matte Black + Gold Dust + Mint)
    ============================================================ */
 
 :root {
@@ -19,6 +19,12 @@
   --sov-gold-bright: #e8c876;   /* highlight */
   --sov-gold-deep: #8a6d2c;     /* deep gold for borders */
   --sov-gold-shadow: rgba(201, 169, 97, 0.15);
+
+  /* Mint highlight — pop accent on hover/active */
+  --sov-mint: #7fd8a0;
+  --sov-mint-bright: #a3e4b5;
+  --sov-mint-deep: #4fae72;
+  --sov-mint-shadow: rgba(127, 216, 160, 0.18);
 
   /* Code stays dark on both modes */
   --sov-code-bg: #0a0a0a;
@@ -55,6 +61,7 @@
   background-color: #0a0a0a !important;
   border-bottom: 1px solid #1a1a1a;
   box-shadow: 0 2px 12px rgba(0, 0, 0, 0.4);
+  border-top: 2px solid var(--sov-mint-deep);
 }
 
 [data-md-color-scheme="default"] .md-header {
@@ -92,7 +99,7 @@
 .md-typeset .hero h1 {
   font-size: 3.5rem;
   font-weight: 900;
-  background: linear-gradient(135deg, var(--sov-gold-bright) 0%, var(--sov-gold-dust) 50%, var(--sov-gold-deep) 100%);
+  background: linear-gradient(135deg, var(--sov-gold-bright) 0%, var(--sov-mint-bright) 50%, var(--sov-gold-deep) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -197,8 +204,8 @@
 
 .blog-card:hover {
   transform: translateY(-2px);
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
-  border-color: var(--sov-gold-dust);
+  box-shadow: 0 8px 24px rgba(127, 216, 160, 0.2);
+  border-color: var(--sov-mint);
 }
 
 .blog-card h3 {
@@ -280,17 +287,17 @@
 }
 
 .md-nav__link:hover {
-  color: var(--sov-gold);
+  color: var(--sov-mint-bright);
 }
 
 .md-nav__link--active {
-  color: var(--sov-gold);
+  color: var(--sov-mint);
 }
 
 /* Selection */
 ::selection {
-  background: var(--sov-gold-deep);
-  color: #f5f1e8;
+  background: var(--sov-mint-deep);
+  color: #0a0a0a;
 }
 
 /* Scrollbar */
@@ -309,7 +316,7 @@
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: var(--sov-gold-deep);
+  background: var(--sov-mint-deep);
 }
 
 /* Dark mode table hover */
@@ -344,16 +351,16 @@
   text-transform: uppercase;
 }
 
-/* Headings get a subtle gold accent line on h1 */
+/* Headings get a subtle mint accent line on h1 */
 .md-typeset h1 {
   color: var(--sov-fg);
-  border-bottom: 1px solid #2a2a2a;
+  border-bottom: 1px solid var(--sov-mint-deep);
   padding-bottom: 0.5rem;
 }
 
 [data-md-color-scheme="default"] .md-typeset h1 {
   color: #0a0a0a;
-  border-bottom: 1px solid #c9a961;
+  border-bottom: 1px solid var(--sov-mint-deep);
 }
 
 .md-typeset h2 {
@@ -366,11 +373,12 @@
   color: var(--sov-gold);
   text-decoration: none;
   border-bottom: 1px solid transparent;
-  transition: border-color 0.2s;
+  transition: color 0.2s, border-color 0.2s;
 }
 
 .md-typeset a:hover {
-  border-bottom-color: var(--sov-gold-dust);
+  color: var(--sov-mint-bright);
+  border-bottom-color: var(--sov-mint);
 }
 
 /* Buttons (mkdocs-material) */
