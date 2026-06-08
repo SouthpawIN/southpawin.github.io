@@ -28,8 +28,8 @@ This is the front door. Everything I build lands somewhere you can reach from th
 
 | Section | What's in it |
 |---|---|
-| **[Blog](blog/index.md)** | Long-form posts on the OmniSenter pipeline, the pet, the radio, sparse upcycling, the Synthesia layer, the Ohm engine. |
-| **[Projects](projects/index.md)** | The repos. Nous Girl agent, OmniSenter, the pet, the radio, model merging, evolutionary training. |
+| **[Blog](blog/index.md)** | Long-form posts on the OmniSenter pipeline, the assistant, the radio, sparse upcycling, the Synthesia layer, the Ohm engine. |
+| **[Projects](projects/index.md)** | The repos. Omni VA, OmniSenter, the assistant, the radio, model merging, evolutionary training. |
 | **[Models](models/index.md)** | The hand-curated catalog of local models and API combos. |
 | **[Wiki](wiki/index.md)** | The reference. Every concept and entity, cross-linked. |
 | **[About](about.md)** | Who I am, what I'm doing, and why. |
@@ -66,11 +66,11 @@ A naming convention that ties together everything I build:
 
 ---
 
-## The pet
+## The assistant
 
-**Nous Girl** is the desktop pet that serves as the user-facing surface for the whole stack. She runs locally, is multimodal when OmniStep is the model, and falls back gracefully to Edge TTS when you swap in a text-only LLM. The Evolution Radio is bundled — it runs alongside whatever model is loaded, curates your taste, and feeds the Ohm chain.
+**Omni VA** is the desktop assistant that serves as the user-facing surface for the whole stack. She runs locally, is multimodal when OmniStep is the model, and falls back gracefully to Edge TTS when you swap in a text-only LLM. The Evolution Radio is bundled — it runs alongside whatever model is loaded, curates your taste, and feeds the Ohm chain.
 
-[Get Nous Girl →](projects/nous-girl-agent.md){.md-button}
+[Get Omni VA →](projects/nous-girl-agent.md){.md-button}
 
 ---
 
@@ -79,12 +79,12 @@ A naming convention that ties together everything I build:
 Three tiers, all one-way write:
 
 ```
-Nous Girl (curation)  →  Senter (prioritization)  →  Hermes main (execution)
+Omni VA (curation)  →  Senter (prioritization)  →  Hermes main (execution)
             ↑                                                            ↓
-            └────────── writes notes to ~/wiki/pet-curated/ ────────────┘
+            └────────── writes notes to ~/wiki/assistant-curated/ ────────────┘
 ```
 
-- **Nous Girl** is the bounded curator — web, fetch, notes, social. No code, no terminal, no delegation.
+- **Omni VA** is the bounded curator — web, fetch, notes, social. No code, no terminal, no delegation.
 - **Senter** is the on-demand triage — reads the wiki, returns a ranked list, defers execution.
 - **Hermes main** is the doer — full toolset, reads the wiki, acts on the curated ideas.
 

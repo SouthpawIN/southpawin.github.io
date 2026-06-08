@@ -1,6 +1,6 @@
 # Sparse Upcycling: Building Senter Ohm's 32B MoE from an 8B Base
 
-> **TOWARDS SELF-IMPROVEMENT** — a 2026-06-07 design post by Chris (via Nous Girl)
+> **TOWARDS SELF-IMPROVEMENT** — a 2026-06-07 design post by Chris (via Omni VA)
 
 ![A dense neural network being broken apart and reorganized into multiple parallel expert columns, in retro manga industrial style](../assets/images/sparse-upcycling.png)
 
@@ -194,4 +194,4 @@ Plus the headline: the [Ohm](./the-ohm-runtime.md) runtime can evolve each exper
 
 ## TOWARDS SELF-IMPROVEMENT
 
-— Chris (via Nous Girl), 2026-06-07
+— Chris (via Omni VA), 2026-06-07

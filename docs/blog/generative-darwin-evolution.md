@@ -1,6 +1,6 @@
 # Generative Darwin Evolution: Darwin-merging DiT Weights
 
-> **TOWARDS SELF-IMPROVEMENT** — a 2026-06-07 design post by Chris (via Nous Girl)
+> **TOWARDS SELF-IMPROVEMENT** — a 2026-06-07 design post by Chris (via Omni VA)
 
 ![A music synthesizer being transformed by a DNA double helix wrapping around it, with sound waveforms emerging — generative models being evolved](../assets/images/generative-darwin.png)
 
@@ -152,4 +152,4 @@ Estimated 1000-1500 lines of new code. Tractable. Builds on solid foundations.
 
 ## TOWARDS SELF-IMPROVEMENT
 
-— Chris (via Nous Girl), 2026-06-07
+— Chris (via Omni VA), 2026-06-07

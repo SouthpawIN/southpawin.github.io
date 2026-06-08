@@ -1,8 +1,8 @@
 # The Notebook Schema: How Senter Remembers What Hermes Doesn't
 
-> **TOWARDS SELF-IMPROVEMENT** — a 2026-06-07 design post by Chris (via Nous Girl)
+> **TOWARDS SELF-IMPROVEMENT** — a 2026-06-07 design post by Chris (via Omni VA)
 
-![The notebook as cosmic holographic artifact: open pages emanating beams of text, audio waveforms, and image fragments, observed by the Nous Girl character](../assets/images/notebook-schema.png)
+![The notebook as cosmic holographic artifact: open pages emanating beams of text, audio waveforms, and image fragments, observed by the Omni VA character](../assets/images/notebook-schema.png)
 
 > **Naming.** The notebook is the defining feature of every model in the
 > **Senter** family (any Omni model with the agentic core wired in —
@@ -310,4 +310,4 @@ Estimated code: 400-600 lines of Python for the manager + 200 lines for the Syne
 
 ## TOWARDS SELF-IMPROVEMENT
 
-— Chris (via Nous Girl), 2026-06-07
+— Chris (via Omni VA), 2026-06-07

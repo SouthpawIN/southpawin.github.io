@@ -17,7 +17,7 @@ The 5-stage training pipeline:
 2. **Evolutionary merge** — 3 variants A/B/C, continue-train
 3. **Sparse upcycle** — 8B dense → 50B-A8B MoE
 4. **YaRN** — 6.25x context extension to 256K
-5. **Plugin wiring** — Hermes tool calls, notebook schema, pet integration
+5. **Plugin wiring** — Hermes tool calls, notebook schema, assistant integration
 
 ## Current status
 

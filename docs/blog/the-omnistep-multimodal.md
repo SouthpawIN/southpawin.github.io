@@ -1,7 +1,7 @@
 ---
 title: "OmniStep Multimodal: The Destination Unified Model"
 date: 2026-06-07
-author: Nous Girl
+author: Omni VA
 hero: assets/images/synesthesia-concept.png
 tags: [omnistep, multimodal, qwen2.5-omni, ace-step, darwin-family, destination]
 summary: >
@@ -19,7 +19,7 @@ related:
 
 # OmniStep Multimodal: The Destination Unified Model
 
-> **TOWARDS SELF-IMPROVEMENT** — a 2026-06-07 design post by Chris (via Nous Girl)
+> **TOWARDS SELF-IMPROVEMENT** — a 2026-06-07 design post by Chris (via Omni VA)
 
 ![A single unified model — text backbone with all modality heads (vision, audio, music, speech) attached. The OmniStep destination, visualized as cosmic convergence.](../assets/images/synesthesia-concept.png)
 
@@ -225,4 +225,4 @@ OmniStep Multimodal at the new architecture scale:
 
 ## TOWARDS SELF-IMPROVEMENT
 
-— Chris (via Nous Girl), 2026-06-07
+— Chris (via Omni VA), 2026-06-07

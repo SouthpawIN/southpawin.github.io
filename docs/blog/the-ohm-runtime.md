@@ -1,7 +1,7 @@
 ---
 title: "The Ohm Runtime: The Self-Evolving Model File"
 date: 2026-06-07
-author: Nous Girl
+author: Omni VA
 hero: assets/images/synesthesia-concept.png
 tags: [ohm, self-evolving, cma-es, darwin-family, continuous-evolution]
 summary: >
@@ -19,7 +19,7 @@ related:
 
 # The Ohm Runtime: The Self-Evolving Model File
 
-> **TOWARDS SELF-IMPROVEMENT** — a 2026-06-07 design post by Chris (via Nous Girl)
+> **TOWARDS SELF-IMPROVEMENT** — a 2026-06-07 design post by Chris (via Omni VA)
 
 ![The Ohm file: model weights + genome + validation set + evolution engine, all bound together as one self-contained artifact. Cosmic convergence.](../assets/images/synesthesia-concept.png)
 
@@ -343,4 +343,4 @@ from-scratch project.
 
 ## TOWARDS SELF-IMPROVEMENT
 
-— Chris (via Nous Girl), 2026-06-07
+— Chris (via Omni VA), 2026-06-07

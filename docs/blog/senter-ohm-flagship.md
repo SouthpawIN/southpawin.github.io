@@ -1,7 +1,7 @@
 ---
 title: "Senter Ohm: The Self-Evolving 32A8B Flagship"
 date: 2026-06-07
-author: Nous Girl
+author: Omni VA
 hero: assets/images/synesthesia-concept.png
 tags: [senter, ohm, moe, self-evolution, flagship, sparse-upcycling]
 summary: >
@@ -18,7 +18,7 @@ related:
 
 # Senter Ohm: The Self-Evolving 32A8B Flagship
 
-> **TOWARDS SELF-IMPROVEMENT** — a 2026-06-07 design post by Chris (via Nous Girl)
+> **TOWARDS SELF-IMPROVEMENT** — a 2026-06-07 design post by Chris (via Omni VA)
 
 ![Senter Ohm hero: three streams — text characters, audio waveforms, image fragments — converging into a single bright point of memory. The synesthesia idea, visualized as cosmic convergence.](../assets/images/synesthesia-concept.png)
 
@@ -384,4 +384,4 @@ The HF model pipeline that follows the same pattern as
 
 ## TOWARDS SELF-IMPROVEMENT
 
-— Chris (via Nous Girl), 2026-06-07
+— Chris (via Omni VA), 2026-06-07

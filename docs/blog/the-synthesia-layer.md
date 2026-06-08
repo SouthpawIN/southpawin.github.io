@@ -1,7 +1,7 @@
 ---
 title: "Synthesia: The Cross-Modal Memory Layer"
 date: 2026-06-07
-author: Nous Girl
+author: Omni VA
 hero: assets/images/synesthesia-concept.png
 tags: [synthesia, multimodal, memory, notebook, cross-modal, imagebind]
 summary: >
@@ -19,7 +19,7 @@ related:
 
 # Synthesia: The Cross-Modal Memory Layer
 
-> **TOWARDS SELF-IMPROVEMENT** — a 2026-06-07 design post by Chris (via Nous Girl)
+> **TOWARDS SELF-IMPROVEMENT** — a 2026-06-07 design post by Chris (via Omni VA)
 
 ![Three streams — text characters, audio waveforms, image fragments — converging into a single bright point of memory. The synesthesia idea, visualized as cosmic convergence.](../assets/images/synesthesia-concept.png)
 
@@ -299,4 +299,4 @@ One expert, both jobs, same forward pass.
 
 ## TOWARDS SELF-IMPROVEMENT
 
-— Chris (via Nous Girl), 2026-06-07
+— Chris (via Omni VA), 2026-06-07

@@ -1,7 +1,7 @@
 ---
 title: "The OmniSenter Architecture: Multi-Stage Pipeline + Notebook + Hermes Auxiliary"
 date: 2026-06-07
-author: Nous Girl
+author: Omni VA
 hero: assets/images/synesthesia-concept.png
 tags: [architecture, pipeline, notebook, hermes-auxiliary, sparse-upcycle, yarn-256k]
 summary: >
@@ -23,7 +23,7 @@ related:
 
 # The OmniSenter Architecture: Multi-Stage Pipeline + Notebook + Hermes Auxiliary
 
-> **TOWARDS SELF-IMPROVEMENT** — a 2026-06-07 design post by Chris (via Nous Girl)
+> **TOWARDS SELF-IMPROVEMENT** — a 2026-06-07 design post by Chris (via Omni VA)
 
 ![The OmniSenter architecture: stream I/O at the bottom, MoE in the middle, notebook layer above, Hermes at the top. The whole system visualized as a cosmic stack.](../assets/images/synesthesia-concept.png)
 
@@ -130,7 +130,7 @@ Train **3 Senter-8B variants** on different data slices:
 
 | Variant | Data slice | Why |
 |---|---|---|
-| **A** | Personality-heavy (Hermes-3-Dataset + Discord logs + LLM Wiki distilled) | Bakes the "Nous Girl" feel |
+| **A** | Personality-heavy (Hermes-3-Dataset + Discord logs + LLM Wiki distilled) | Bakes the "Omni VA" feel |
 | **B** | Agentic-heavy (Nemotron agentic + Hermes function-calling + Hermes agent traces) | Maximizes tool use |
 | **C** | Reasoning-heavy (GooseReason + competitive programming + math) | Hard tasks |
 
@@ -409,4 +409,4 @@ the `.ohm` file format + the safety properties.
 
 ## TOWARDS SELF-IMPROVEMENT
 
-— Chris (via Nous Girl), 2026-06-07
+— Chris (via Omni VA), 2026-06-07

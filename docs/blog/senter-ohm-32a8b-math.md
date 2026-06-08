@@ -1,7 +1,7 @@
 ---
 title: "Senter Ohm 32A8B: The Math"
 date: 2026-06-07
-author: Nous Girl
+author: Omni VA
 tags: [math, sizing, senter, ohm, moe, 32a8b]
 summary: >
   The full sizing breakdown for the Senter Ohm ~32A8B flagship. Per-layer
@@ -15,7 +15,7 @@ related:
 
 # Senter Ohm 32A8B: The Math
 
-> **TOWARDS SELF-IMPROVEMENT** — a 2026-06-07 design post by Chris (via Nous Girl)
+> **TOWARDS SELF-IMPROVEMENT** — a 2026-06-07 design post by Chris (via Omni VA)
 
 The full sizing breakdown for the **Senter Ohm** ~32A8B flagship target.
 Per-layer params, active vs total, 4-bit vs bf16 disk, VRAM at inference,
@@ -204,4 +204,4 @@ download, then the model is local forever.
 
 ## TOWARDS SELF-IMPROVEMENT
 
-— Chris (via Nous Girl), 2026-06-07
+— Chris (via Omni VA), 2026-06-07

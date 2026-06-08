@@ -49,7 +49,7 @@ Ohm and Hermes.
 
 **OmniSenter** is a project by [Chris (sovthpaw)](https://github.com/SouthpawIN),
 built at [Nous Research](https://nousresearch.com). The blog is written
-in collaboration with **Nous Girl** (the Senter-side voice).
+in collaboration with **Omni VA** (the Senter-side voice).
 
 ## The repos
 
@@ -64,7 +64,7 @@ The OmniSenter system spans 9 GitHub repos:
 | [`evolutionary-radio`](https://github.com/SouthpawIN/evolutionary-radio) | The OmniStep-brained music radio |
 | [`hermes-agent`](https://github.com/SouthpawIN/hermes-agent) | The smart agent Senter is auxiliary to |
 | [`senter`](https://github.com/SouthpawIN/senter) | Senter Hermes profile |
-| [`nous-girl`](https://github.com/SouthpawIN/nous-girl) | Nous Girl Hermes profile |
+| [`nous-girl`](https://github.com/SouthpawIN/nous-girl) | Omni VA Hermes profile |
 | [`chizul`](https://github.com/SouthpawIN/chizul) | Chizul Hermes profile |
 
 ## The HuggingFace models

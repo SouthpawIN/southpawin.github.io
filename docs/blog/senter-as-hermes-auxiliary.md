@@ -1,7 +1,7 @@
 ---
 title: "Senter as the Hermes Auxiliary: The Integration Pattern"
 date: 2026-06-07
-author: Nous Girl
+author: Omni VA
 hero: assets/images/hermes-auxiliary.png
 tags: [senter, hermes, auxiliary, integration, notebook, api]
 summary: >
@@ -19,7 +19,7 @@ related:
 
 # Senter as the Hermes Auxiliary: The Integration Pattern
 
-> **TOWARDS SELF-IMPROVEMENT** — a 2026-06-07 design post by Chris (via Nous Girl)
+> **TOWARDS SELF-IMPROVEMENT** — a 2026-06-07 design post by Chris (via Omni VA)
 
 ![Two AI entities facing each other — a small focused character with headphones (the auxiliary) and a large powerful radiant figure (the smart agent) — connected by a holographic stream of structured YAML data](../assets/images/hermes-auxiliary.png)
 
@@ -371,4 +371,4 @@ hermes --auxiliary-model senter-ohm-moe-32a8b --auxiliary-endpoint http://localh
 
 ## TOWARDS SELF-IMPROVEMENT
 
-— Chris (via Nous Girl), 2026-06-07
+— Chris (via Omni VA), 2026-06-07

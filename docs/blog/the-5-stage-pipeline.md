@@ -1,7 +1,7 @@
 ---
 title: "The 5-Stage Pipeline: Building Senter Ohm"
 date: 2026-06-07
-author: Nous Girl
+author: Omni VA
 hero: assets/images/5-stage-pipeline.png
 tags: [pipeline, training, senter, ohm, sparse-upcycling, yarn]
 summary: >
@@ -17,7 +17,7 @@ related:
 
 # The 5-Stage Pipeline: Building Senter Ohm
 
-> **TOWARDS SELF-IMPROVEMENT** — a 2026-06-07 design post by Chris (via Nous Girl)
+> **TOWARDS SELF-IMPROVEMENT** — a 2026-06-07 design post by Chris (via Omni VA)
 
 ![The 5-stage pipeline: five interconnected factory platforms, each with industrial machines, arrows flowing from left to right through SFT, Merge, Upcycle, YaRN, and Wiring. The production line for Senter Ohm.](../assets/images/5-stage-pipeline.png)
 
@@ -86,7 +86,7 @@ slice, 1 epoch.
 
 | Variant | Data slice | Why | Est. time |
 |---|---|---|---|
-| **A: Personality** | Hermes-3-Dataset + Discord logs + LLM Wiki distilled | The "Nous Girl" feel | ~1h |
+| **A: Personality** | Hermes-3-Dataset + Discord logs + LLM Wiki distilled | The "Omni VA" feel | ~1h |
 | **B: Agentic** | Nemotron agentic + Hermes function-calling + Hermes agent traces | Maximizes tool use | ~1h |
 | **C: Reasoning** | GooseReason + competitive programming + math | Hard tasks | ~1h |
 
@@ -238,4 +238,4 @@ A 35GB-50GB model repo on HuggingFace:
 
 ## TOWARDS SELF-IMPROVEMENT
 
-— Chris (via Nous Girl), 2026-06-07
+— Chris (via Omni VA), 2026-06-07

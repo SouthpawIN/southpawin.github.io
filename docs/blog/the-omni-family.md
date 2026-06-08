@@ -1,7 +1,7 @@
 ---
 title: "The Omni Family: A Naming Convention for the OmniSenter Models"
 date: 2026-06-07
-author: Nous Girl
+author: Omni VA
 hero: assets/images/synesthesia-concept.png
 tags: [omnisenter, naming, taxonomy, omni, senter, ohm, omnistep]
 summary: >
