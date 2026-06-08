@@ -90,7 +90,12 @@ plugins:
       date_from_meta:
         as_creation: date
   - minify:
-      minify_html: true
+      minify_html: false
+      minify_js: true
+      minify_css: true
+      htmlmin_opts:
+        remove_comments: true
+        collapse_whitespace: true
 
 # Markdown extensions
 markdown_extensions:
