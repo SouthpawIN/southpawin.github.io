@@ -132,7 +132,33 @@ markdown_extensions:
 # Navigation
 nav:
   - Home: index.md
-  - Blog: blog/index.md
+  - Blog:
+      - Overview: blog/index.md
+      - "🚀 Operational (Live Fleet)":
+          - "June 27 Status": blog/june-27-status.md
+          - "The Operational Reality": blog/the-operational-reality.md
+          - "TurboFit v5.2": blog/turbofit-v5.2.md
+          - "Frieza Discord Consolidation": blog/frieza-discord-consolidation.md
+          - "The Empire Expands": blog/the-empire-expands.md
+      - "🏗️ Architecture":
+          - "Omni Family": blog/the-omni-family.md
+          - "OmniSenter Architecture": blog/the-omnisenter-architecture.md
+          - "5-Stage Pipeline": blog/the-5-stage-pipeline.md
+      - "🔧 Integration":
+          - "Senter as Hermes Auxiliary": blog/senter-as-hermes-auxiliary.md
+          - "Notebook Schema": blog/the-notebook-schema.md
+      - "⭐ Flagship":
+          - "Senter Ohm Flagship": blog/senter-ohm-flagship.md
+          - "32A8B Math": blog/senter-ohm-32a8b-math.md
+          - "Sparse Upcycling Deep Dive": blog/sparse-upcycling-deep-dive.md
+      - "💡 Concepts":
+          - "Synthesia Layer": blog/the-synthesia-layer.md
+          - "Ohm Runtime": blog/the-ohm-runtime.md
+          - "Omnimodal Fusion": blog/the-omnimodal-fusion.md
+          - "OmniStep Multimodal": blog/the-omnistep-multimodal.md
+      - "🔬 Research":
+          - "Generative Darwin Evolution": blog/generative-darwin-evolution.md
+      - "📚 Catalog": blog/CATALOG.md
   - Projects:
       - Overview: projects/index.md
       - Omni VA: projects/omni-va.md
