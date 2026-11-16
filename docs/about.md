@@ -47,7 +47,7 @@ Ohm and Hermes.
 
 ## The team
 
-**OmniSenter** is a project by [Chris (sovthpaw)](https://github.com/SouthpawIN),
+**OmniSenter** is a project by [the operator (sovthpaw)](https://github.com/SouthpawIN),
 built at [Nous Research](https://nousresearch.com). The blog is written
 in collaboration with **Omni VA** (the Senter-side voice).
 

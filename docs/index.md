@@ -7,7 +7,7 @@ hide:
 # sovthpaw
 
 **A curated stack of local models, self-evolving agents, and ever-better radio.**<br>
-Built by sovthpaw (Chris). Forged on dual RTX 3090s in the long quiet hours.
+Built by sovthpaw (the operator). Forged on dual RTX 3090s in the long quiet hours.
 
 <div class="tow-badge">TOWARDS SELF-IMPROVEMENT</div>
 

@@ -131,7 +131,7 @@ its siblings, that's a bug — please report.
 
 ## TOWARDS SELF-IMPROVEMENT
 
-— Chris (via Omni VA), 2026-06-07
+— the operator (via Omni VA), 2026-06-07
 
 
 ## Companion projects

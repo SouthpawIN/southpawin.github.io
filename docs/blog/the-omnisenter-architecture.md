@@ -23,7 +23,7 @@ related:
 
 # The OmniSenter Architecture: Multi-Stage Pipeline + Notebook + Hermes Auxiliary
 
-> **TOWARDS SELF-IMPROVEMENT** — a 2026-06-07 design post by Chris (via Omni VA)
+> **TOWARDS SELF-IMPROVEMENT** — a 2026-06-07 design post by the operator (via Omni VA)
 
 ![The OmniSenter architecture: stream I/O at the bottom, MoE in the middle, notebook layer above, Hermes at the top. The whole system visualized as a cosmic stack.](../assets/images/synesthesia-concept.png)
 
@@ -409,4 +409,4 @@ the `.ohm` file format + the safety properties.
 
 ## TOWARDS SELF-IMPROVEMENT
 
-— Chris (via Omni VA), 2026-06-07
+— the operator (via Omni VA), 2026-06-07

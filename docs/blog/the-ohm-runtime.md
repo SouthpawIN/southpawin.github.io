@@ -19,7 +19,7 @@ related:
 
 # The Ohm Runtime: The Self-Evolving Model File
 
-> **TOWARDS SELF-IMPROVEMENT** — a 2026-06-07 design post by Chris (via Omni VA)
+> **TOWARDS SELF-IMPROVEMENT** — a 2026-06-07 design post by the operator (via Omni VA)
 
 ![The Ohm file: model weights + genome + validation set + evolution engine, all bound together as one self-contained artifact. Cosmic convergence.](../assets/images/synesthesia-concept.png)
 
@@ -28,7 +28,7 @@ related:
 > with the Ohm engine baked in is **Senter Ohm** (~32A8B MoE). Read
 > [`the-omni-family.md`](./the-omni-family.md) for the full taxonomy.
 
-> **Chris (2026-06-07):** *"it'll be a wild if we can get a continual evolutionary model merging just built into the model file so just runs automatically anyways just as long as this model is running it's constantly evolving... OmniSenter Ohm"*
+> **the operator (2026-06-07):** *"it'll be a wild if we can get a continual evolutionary model merging just built into the model file so just runs automatically anyways just as long as this model is running it's constantly evolving... OmniSenter Ohm"*
 
 **Ohm** (Ω) is the Senter variant that **carries its own evolution engine
 inside the model file**. It's a single artifact — model weights + genome +
@@ -343,4 +343,4 @@ from-scratch project.
 
 ## TOWARDS SELF-IMPROVEMENT
 
-— Chris (via Omni VA), 2026-06-07
+— the operator (via Omni VA), 2026-06-07
